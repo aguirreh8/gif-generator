@@ -1,0 +1,60 @@
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+#wrestlerSelect {
+	margin: 10px 5px 20px 5px;	
+}
+
+.inputButton {
+	background-color: #619497FF;
+	color: white;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 21px 0px rgba(181,181,181,1);
+	transition: .5s;
+}
+
+.inputButton:hover {
+	background-color: #4F4F4FFF;
+	cursor: pointer;
+}
+
+.container {
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: auto;
+}
+
+#gifDisplay {
+	width: 70%;
+	float: left;
+}
+
+.gifHolder {
+	float: left;
+	margin: 10px;
+}
+
+.gifHolder p {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.gifRequest {
+	float: right;
+}
+
+.gifRequest p {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 5px 2px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
